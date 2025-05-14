@@ -1,0 +1,256 @@
+
+
+.head-table-container {
+  margin-left: 260px;
+  margin-top: 101px;
+  width: 1180px;
+  /* min-height: 100vh;  */
+}
+
+.inner-container {
+  width: 1139px;
+  height: 722px; /* adjust as per layout */
+  margin-top: 24px;
+  margin-left: 24px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.campus-header{
+  height:78px;
+  width:1139px;
+  
+  /* padding:20px ; */
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  display:flex;
+  justify-content: space-between;
+
+}
+
+
+.campus-header h2{
+  margin-left:24px;
+}
+
+.campus-controls{
+  margin-top:10px;
+  margin-right:20px;
+
+  
+
+}
+
+
+
+
+.campus-controls button{
+  padding:10px;
+  margin:5px
+}
+
+.filter {
+  background-color: white;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius:10px;
+  /* height:10px; */
+}
+
+.filter .notification {
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 2px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  height:12px;
+  width:12px;
+  font-size:10px;
+}
+
+.export {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius:10px;
+}
+
+.add-new-field {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border-radius:10px;
+}
+
+
+
+
+.campus-table-wrapper {
+  overflow-x: auto;
+  background-color: #fff;
+  height: 644px;
+  /* padding: 10px; */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+.campus-table {
+  border-collapse: collapse;
+  margin-left:15px;
+  /* width:auto; */
+  
+}
+
+
+
+  .campus-table th {
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1); /* no spread */
+  }
+  
+
+
+.campus-table th,
+.campus-table td {
+  padding: 10px 12px;
+  font-size: 14px;
+  text-align: left;
+  white-space: nowrap; 
+  border: none;
+  border-bottom: 1px solid rgba(101, 99, 99, 0.1); 
+  border-radius: 0; 
+  /* box-shadow: 0px 0.5px 3px 0px rgba(0, 0, 0, 0.3); */
+}
+
+
+
+
+  /* Pagination buttons */
+  .campus-pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  
+  .campus-pagination button {
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .campus-pagination button:hover {
+    background-color: #e0e7ff;
+  }
+
+
+
+
+  /* pagination */
+  .pagination-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 5px ; */
+    /* padding-top:1px; */
+    /* padding-bottom: 9px; */
+    padding:0;
+    background: white;
+    /* position: fixed;  */
+    /* margin-bottom: 20px; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    z-index: 1000;
+    width: 1120px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+    margin-left: 40px;
+    height:42px;
+    margin-top:15px;
+   
+   
+  }
+ 
+  .pagination-btn {
+    padding: 5px 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: rgb(253, 251, 251);
+    color: #3a3d41;
+    font-weight: 500;
+    cursor: pointer;
+   
+  }
+ 
+  .pagination-btn:hover {
+    background-color: #f0f0f0;
+  }
+ 
+ 
+  .left-btn{
+    margin-left:-13px;
+  }
+ 
+ 
+  .right-btn{
+    margin-right:0px;
+  }
+ 
+  .page-numbers {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size:12.5px;
+    
+   
+  }
+ 
+  .page {
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #0970ff;
+    font-weight: 500;
+    cursor: pointer;
+  }
+ 
+  .page.active {
+    background-color: #eef2ff;
+    color: #4338ca;
+    border:0px;
+  }
+ 
+  .dots {
+    padding: 8px 12px;
+    color: #999;
+  }
+ 
+  
+    .action-btn {
+      background: transparent;
+      border: none; /* Optional: removes the border */
+      padding: 0;    /* Optional: remove extra spacing */
+      cursor: pointer;
+      margin:3px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

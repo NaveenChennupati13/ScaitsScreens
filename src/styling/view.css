@@ -1,0 +1,126 @@
+.view-container{
+  height:823px;
+  width:1180px;
+  background-color: black;
+  margin-top:77px;
+  margin-left:260px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+
+.new-field-container{
+  margin: -21px;
+  margin-left:246px;
+  width:80.5%;
+  background-color:black;
+  height:95vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+/* Popup */
+.popup {
+background: white;
+width: 400px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+position: relative;
+}
+
+/* Header */
+.headerss {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header h2 {
+font-size: 18px;
+margin: 0;
+}
+
+.close-btn {
+background: none;
+border: none;
+font-size: 30px;
+cursor: pointer;
+}
+
+/* Form Rows */
+.form-row {
+display: flex;
+gap: 10px;
+margin-top: 15px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+.form-group label {
+font-size: 12px;
+margin-bottom: 4px;
+color: #555;
+}
+
+.form-group.very-big input{
+  width:357px;
+}
+
+.form-group.small input {
+width: 70px;
+padding:10px;
+}
+
+.form-group.big input {
+width: 150px;
+padding:10px;
+}
+
+input {
+padding: 6px 8px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+/* Buttons */
+.button-group {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.delete-btn {
+background: none;
+border: 1px solid red;
+color: red;
+padding: 8px 20px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+}
+
+.edit-btn {
+background: #3b28ff;
+border: none;
+color: white;
+/* padding: 8px 40px; */
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+width:305px
+}
+

@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import NavSidebar from "./side-top-nav-bars";
 import { Link } from "react-router-dom";
-import Campus from "./Campus"; // Assuming Campus.js is in the same folder
+import Campus from "./Campus";
+import "../styling/Campus.css";
 
- // Corrected CSS import path
- import "../styling/Campus.css";
 function BodySec() {
   const [activeFilter, setActiveFilter] = useState("");
 
@@ -15,14 +14,13 @@ function BodySec() {
   return (
     <>
       <NavSidebar />
-
       <div className="body-sec-container">
         <div className="students-section-container">
-          <div className="students-section-left">
+          <div className="students-section-left mobile-background">
             <h1 className="students-section-title">Students Masters</h1>
             <p className="students-section-description">
               Access and manage comprehensive student details seamlessly.
-              <br />
+              
               View personalized profiles tailored to your campus.
             </p>
             <div className="students-search-bar">
@@ -30,7 +28,6 @@ function BodySec() {
               <input type="text" placeholder="Search for the module" />
             </div>
           </div>
-
           <div className="students-section-right">
             <div className="students-filters">
               <div>
@@ -40,10 +37,11 @@ function BodySec() {
                 <button className="students-pill" onClick={() => handleFilterClick("City")}>
                   <i className="fas fa-city"></i> City
                 </button>
-                <Link to = 'Campus'>
-                <button className="students-pill" >
-                  <i className="fas fa-school"></i> Campus
-                </button></Link>
+                <Link to="Campus">
+                  <button className="students-pill">
+                    <i className="fas fa-school"></i> Campus
+                  </button>
+                </Link>
               </div>
               <div>
                 <button className="students-pill">
@@ -80,8 +78,6 @@ function BodySec() {
             </div>
           </div>
         </div>
-
-        {/* Conditionally show the Campus component */}
         {activeFilter === "Campus" && <Campus />}
       </div>
     </>

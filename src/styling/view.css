@@ -8,6 +8,9 @@
   justify-content: center;
   align-items: center;
 
+  box-sizing: border-box;
+  
+
 }
 
 
@@ -24,7 +27,9 @@
   justify-content: center;
   align-items: center;
 
-
+  box-sizing: border-box;
+  
+  
 }
 
 
@@ -36,6 +41,9 @@ padding: 20px;
 border-radius: 10px;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 position: relative;
+
+
+  box-sizing: border-box;
 }
 
 /* Header */
@@ -124,3 +132,190 @@ font-weight: bold;
 width:305px
 }
 
+@media (max-width: 480px) {
+
+  .view-container {
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 15px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index:9999;
+    margin-top:58px;
+  }
+
+  /* .popup {
+    width: 95%;
+    max-width: 400px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    height:100vh;
+  }
+
+  .header h2 {
+font-size: 15px;
+margin: 0;
+}
+
+.close-btn {
+background: none;
+border: none;
+font-size: 20x;
+cursor: pointer;
+}
+
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: -10px;
+  }
+
+  .form-group.very-big input { width: 100%; max-width: 357px; padding: 6px 8px; margin-bottom: 5px; }
+  .form-group.small input { width: 70px; padding: 10px;  margin-bottom: 5px;}
+  .form-group.big input { width: 150px; padding: 10px;  margin-bottom: 5px;}
+
+  .button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    align-items: center;
+  }
+
+  .delete-btn, .edit-btn {
+    width: 100%;
+    max-width: 305px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .delete-btn {
+    background: none;
+    border: 1px solid red;
+    color: red;
+  }
+
+  .edit-btn {
+    background: #3b28ff;
+    border: none;
+    color: white;
+  } */
+   .popup {
+background: white;
+width: 320px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+position: relative;
+margin-top:-60px;
+height:85vh;
+  box-sizing: border-box;
+}
+
+/* Header */
+.headerss {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header h2 {
+font-size: 18px;
+/* margin-top:-50px; */
+
+}
+
+.close-btn {
+background: none;
+border: none;
+font-size: 30px;
+cursor: pointer;
+}
+
+/* Form Rows */
+.form-row {
+display: flex;
+gap: 10px;
+margin-top: 15px;
+}
+
+.form-group {
+display: flex;
+flex-direction: column;
+}
+
+.form-group label {
+font-size: 12px;
+margin-bottom: 4px;
+color: #555;
+}
+
+.form-group.very-big input{
+  width:200px;
+  margin-top:-30px;
+}
+
+.form-group.small input {
+width: 40px;
+padding:10px;
+/* margin-top:-30px; */
+}
+
+.form-group.big input {
+width: 100px;
+padding:10px;
+/* margin-top:-30px; */
+}
+
+input {
+padding: 6px 8px;
+border: 1px solid #ccc;
+border-radius: 6px;
+font-size: 14px;
+}
+
+/* Buttons */
+.button-group {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+
+.delete-btn {
+background: none;
+border: 1px solid red;
+color: red;
+padding: 8px 20px;
+border-radius: 6px;
+cursor: pointer;
+height:30px;
+font-weight: bold;
+margin-top:-5px;
+}
+
+.edit-btn {
+background: #3b28ff;
+border: none;
+color: white;
+padding: 8px 80px;
+border-radius: 6px;
+cursor: pointer;
+font-weight: bold;
+height:30px;
+margin-left:13px;
+margin-top:-5px;
+
+}
+}

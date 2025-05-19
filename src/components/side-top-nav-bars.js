@@ -7,7 +7,7 @@ import user from '../assets/Img.png';
 function NavSidebar() {
   const location = useLocation();
   const sidebarRef = useRef(null);
-  const [dragText, setDragText] = useState('Drag up to see full menu');
+  const [dragText, setDragText] = useState('▼ Drag up to see full menu');
   let isDragging = false;
   let startY;
   let initialHeight;
@@ -151,8 +151,9 @@ function NavSidebar() {
       </header>
 
       {/* Side Navbar */}
+      
       <aside className="sidebar" ref={sidebarRef}>
-        {/* <div className="drag-indicator"></div> */}
+        <div className="drag-indicator"></div>
         <div className="drag-text">{dragText}</div>
         <h4 className="module-heading">Modules</h4>
         <ul className="menu">

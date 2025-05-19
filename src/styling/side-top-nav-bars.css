@@ -285,10 +285,11 @@
   /* Show Menu Icon */
   .menu-icon {
     display: flex;
+    color: #363636;
     /* align-items: left;
     margin-left: 270px;
     color: #363636; */
-    margin-right: 30px;;
+    margin-right: 30px;
   }
 
   /* Hide Sidebar */
@@ -323,18 +324,18 @@
 
 .menu {
   list-style: none;
-  padding: 0;
+  padding: 5px;
   margin: 0;
 }
 
 .menu-item {
   display: flex;
   align-items: center;
-  font-size: 14px;
+  font-size: 9px;
   color: #333;
   padding: 10px;
   border-radius: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 3px;
   cursor: pointer;
   margin-left: 20px;
   transition: background 0.2s ease;
@@ -356,12 +357,12 @@
 }
 
 .drag-indicator {
-  display: none;
+  display: block;
   width: 40px;
-  height: 5px;
-  background-color: #ccc;
-  border-radius: 3px;
-  margin: 10px auto;
+  height: 4px;
+  background-color: #d1d5db;
+  border-radius: 2px;
+  margin: 5px auto;
   cursor: ns-resize;
   touch-action: none;
 }
@@ -486,5 +487,18 @@
   }
   .drag-text{
   display:block;
+}
+
+.drag-text{
+  font-size: 10px;
+  color: #666;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 5px;
+
 }
 }

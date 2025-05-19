@@ -9,20 +9,19 @@ function Campus() {
   const [modalData, setModalData] = useState({});
 
   const data = [
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
-    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" }
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" },
+    { campusId: "01", campusCode: "Guntur", campusName: "Gardens Branch", campusType: "Active",code:"Updated", status: "D1", addressDno: "Z1", landmark: "PC1", location: "01", name: "Guntur", pin: "50214", principalMobile: "85522446", street: "Hanuman", cityId: "0213", countryId: "135" }
+
   ];
 
 
@@ -77,6 +76,16 @@ function Campus() {
         <div className="inner-container">
           <div className="campus-header">
             <h2>Campus </h2>
+            <div className="new">
+             <div className="anotherstudent">
+          <h1> Student Masters </h1>
+        </div>
+        <div className="another-search-bar">
+              <i className="fas fa-search"></i>
+              <input type="text" placeholder="Search" />
+            </div>
+            </div>
+
             <div className="campus-controls">
               <button className="filter">
                 <i className="fa-solid fa-filter" style={{ color: "#054447", padding: "4px" }}></i> Filter <span className="notification">1</span>
@@ -95,10 +104,16 @@ function Campus() {
             <table className="campus-table">
               <thead>
                 <tr>
+                <th><input type="checkbox" /></th>
+ 
+ 
+                
+ 
                   <th>Campus ID</th>
                   <th>Campus Code</th>
                   <th>Campus Name</th>
                   <th>Campus Type</th>
+                  <th> Code</th>
                   <th>Status</th>
                   <th>Address Dno</th>
                   <th>Land Mark</th>
@@ -115,10 +130,12 @@ function Campus() {
               <tbody>
                 {currentRows.map((campus, index) => (
                   <tr key={index}>
+                    <td><input type="checkbox" /></td>
                     <td>{campus.campusId}</td>
                     <td>{campus.campusCode}</td>
                     <td>{campus.campusName}</td>
                     <td>{campus.campusType}</td>
+                      <td>{campus.code}</td>
                     <td>{campus.status}</td>
                     <td>{campus.addressDno}</td>
                     <td>{campus.landmark}</td>
@@ -191,7 +208,7 @@ function Campus() {
             </div>
 
         </div>
-
+       
 
 
 

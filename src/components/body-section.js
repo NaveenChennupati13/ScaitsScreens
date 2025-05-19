@@ -20,7 +20,7 @@ function BodySec() {
             <h1 className="students-section-title">Students Masters</h1>
             <p className="students-section-description">
               Access and manage comprehensive student details seamlessly.
-              
+
               View personalized profiles tailored to your campus.
             </p>
             <div className="students-search-bar">
@@ -29,7 +29,9 @@ function BodySec() {
             </div>
           </div>
           <div className="students-section-right">
+            
             <div className="students-filters">
+
               <div>
                 <button className="students-pill" onClick={() => handleFilterClick("State")}>
                   <i className="fas fa-globe"></i> State
@@ -43,6 +45,8 @@ function BodySec() {
                   </button>
                 </Link>
               </div>
+
+
               <div>
                 <button className="students-pill">
                   <i className="fas fa-calendar-alt"></i> Fee Payment Year
@@ -51,6 +55,8 @@ function BodySec() {
                   <i className="fas fa-money-bill"></i> Fee Heads
                 </button>
               </div>
+
+
               <div>
                 <button className="students-pill">
                   <i className="fas fa-building"></i> Organization
@@ -62,6 +68,8 @@ function BodySec() {
                   <i className="fas fa-stream"></i> Stream
                 </button>
               </div>
+
+
               <div>
                 <button className="students-pill">
                   <i className="fas fa-book"></i> Program Name
@@ -69,13 +77,21 @@ function BodySec() {
                 <button className="students-pill">
                   <i className="fas fa-file-alt"></i> Exam Program
                 </button>
+
               </div>
+
+
+
               <div>
                 <button className="students-pill">
                   <i className="fas fa-route"></i> Course Track
                 </button>
               </div>
             </div>
+
+
+
+
           </div>
         </div>
         {activeFilter === "Campus" && <Campus />}

@@ -15,6 +15,7 @@ import NavSidebar from './components/side-top-nav-bars';
 import BodySec from './components/body-section';
 import './styling/body-section.css';
 import Campus from './components/Campus';
+import Newfield from './components/Newfield';
 import { MoveDiagonal } from 'lucide-react';
 // import Modal from './components/view';
 import View from './components/view';
@@ -30,6 +31,7 @@ function App() {
         {/* <Route path="/bodysec" element={<BodySec/>}/> */}
         <Route path ="/Campus" element={<Campus/>}/>
         <Route path ="/view" element={<View/>}/>
+        <Route path ="/Newfield" element={<Newfield/>}/>
 
         
       </Routes>

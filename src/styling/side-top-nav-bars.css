@@ -341,7 +341,7 @@
   transition: background 0.2s ease;
 }
 
-.menu-item i {
+.menu-item svg {
   margin-right: 10px;
   font-size: 16px;
 }
@@ -383,7 +383,7 @@
     margin-left: 15px;
   }
 
-  .menu-item i {
+  .menu-item svg {
     font-size: 15px;
     margin-right: 8px;
   }
@@ -409,7 +409,7 @@
     margin-bottom: 4px;
   }
 
-  .menu-item i {
+  .menu-item svg {
     font-size: 14px;
     margin-right: 7px;
   }
@@ -467,7 +467,7 @@
     width: 58px;
   }
 
-  .menu-item i {
+  .menu-item svg {
     font-size: 20px; /* Larger icon size */
     margin-right: 0;
     margin-bottom: 4px; /* Space between icon and text */

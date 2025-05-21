@@ -1,0 +1,241 @@
+.Newfield-view-container {
+  height: 823px;
+  width: 1180px;
+  background-color: black;
+  margin-top: 77px;
+  margin-left: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Newfield-new-field-container {
+  margin: -21px;
+  margin-left: 246px;
+  width: 80.5%;
+  background-color: black;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Popup */
+.Newfield-popup {
+  background: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Header */
+.Newfield-headerss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Newfield-header h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.Newfield-close-btn {
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* Form Rows */
+.Newfield-form-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.Newfield-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.Newfield-form-group label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.Newfield-form-group.Newfield-very-big input {
+  width: 275px;
+}
+
+.Newfield-form-group.Newfield-small input {
+  width: 70px;
+  padding: 10px;
+}
+
+.Newfield-form-group.Newfield-big input {
+  width: 67px;
+  padding: 10px;
+}
+
+input {
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Buttons */
+.Newfield-button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Newfield-delete-btn {
+  background: none;
+  border: 1px solid red;
+  color: red;
+  padding: 8px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Newfield-edit-btn {
+  background: #3b28ff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 305px;
+}
+@media (max-width: 480px) {
+  .Newfield-view-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 15px;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 9999;
+    margin-top: 58px;
+  }
+
+  .Newfield-popup {
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-top: -60px;
+    height: 85vh;
+    box-sizing: border-box;
+  }
+
+  .Newfield-headerss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Newfield-header h2 {
+    font-size: 18px;
+  }
+
+  .Newfield-close-btn {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .Newfield-form-row {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    align-items: flex-start;
+  }
+
+  .Newfield-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Newfield-form-group label {
+    font-size: 12px;
+    margin-bottom: 4px;
+    color: #555;
+  }
+
+  .Newfield-very-big input {
+    width: 200px;
+    padding: 6px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .Newfield-small input {
+    width: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .Newfield-big input {
+    width: 80px; /* Decreased from 100px */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+
+  .Newfield-button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 10px;
+  }
+
+  .Newfield-delete-btn {
+    background: none;
+    border: 1px solid red;
+    color: red;
+    padding: 8px 0;
+    flex: 1;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 34px;
+   
+    font-weight: bold;
+    margin-top: -5px;
+  }
+
+  .Newfield-edit-btn {
+    background: #3b28ff;
+    border: none;
+    color: white;
+    padding: 8px 40px;
+    flex: 1;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    height: 35px;
+    margin-top: -5px;
+    width: 187px;
+  }
+}
